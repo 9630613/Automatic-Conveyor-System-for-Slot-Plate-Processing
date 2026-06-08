@@ -68,16 +68,6 @@ The system operates in two main automatic cycles:
 └── README.md
 ```
 
-## How to Run / Simulate
-
-> Specify your simulation environment here (e.g., CODESYS, FluidSIM, Factory I/O, TIA Portal).
-
-1. Open the project file in your PLC programming environment.
-2. Set `PlateNumbers` to the desired production count.
-3. Run the simulation and press **Start** to begin Cycle 1.
-4. Once the basket fills (6 slots), press **Change Basket** to reset and restart.
-
-
 ## Key Concepts Demonstrated
 
 - SFC / Grafcet sequential function chart design

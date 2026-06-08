@@ -61,13 +61,19 @@ The system operates in two main automatic cycles:
 
 ```
 /
-├── PLC/                  # Ladder logic project files
-├── SFC_Grafcet/          # SFC/Grafcet project files
-├── Diagrams/             # Pneumatic circuit diagrams, wiring diagrams
-├── Presentation/         # Project slides (ZahraSadeghi.pptx)
+├── Conveyor/            # Ladder logic project files
+├── Grafcet/             # SFC/Grafcet project files
 └── README.md
 ```
-
+## How to Run / Simulate
+ 
+> Requires **Automation Studio**.
+ 
+1. Open the project file in Automation Studio.
+2. Set `PlateNumbers` to the desired production count.
+3. Run the simulation and press **Start** to begin Cycle 1.
+4. Once the basket fills (6 slots), press **Change Basket** to reset and restart.
+   
 ## Key Concepts Demonstrated
 
 - SFC / Grafcet sequential function chart design
